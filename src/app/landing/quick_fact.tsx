@@ -5,7 +5,7 @@ export function QuickFact(props: {setIndex: (index: number) => void}) {
         initial={{ y: 500 }}
         transition={{ duration: 0.2 }}
         animate={{ y: 0 }}
-        exit={{ y: 500 }}
+        exit={{ x: 500 }}
         onMouseDown={() => props.setIndex(3)}
         className="h-[100vh] w-full bg-cyan-500 absolute top-0
         from-[#5ce1e6] to-[rgba(0,0,0,.6)] bg-gradient-to-b from-90%"

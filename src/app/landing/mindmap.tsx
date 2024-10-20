@@ -41,10 +41,9 @@ export function MindMap() {
 
     return (
         <motion.div style={containerStyles}
-                    initial={{ y: 500 }}
-                    transition={{ duration: 0.2 }}
-                    animate={{ y: 0 }}
-                    exit={{ y: 500 }}
+                    initial={{ x: -500 }}
+                    animate={{ x: 0 }}
+                    exit={{ x: -500 }}
         >
             <div style={innerContainerStyles}>
                 <div style={notesContainerStyles}>
